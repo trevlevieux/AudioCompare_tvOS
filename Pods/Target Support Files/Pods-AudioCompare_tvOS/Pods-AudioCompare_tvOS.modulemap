@@ -1,0 +1,6 @@
+framework module Pods_AudioCompare_tvOS {
+  umbrella header "Pods-AudioCompare_tvOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

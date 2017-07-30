@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9FA33BF267CD9C43AC38BC0 /* Pods_AudioCompare_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6DB55AED6CB3136B6D24D9A /* Pods_AudioCompare_tvOS.framework */; };
+		F423955E1F26D6A200482003 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F423955B1F26D6A200482003 /* ImageIO.framework */; };
+		F423955F1F26D6A200482003 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F423955C1F26D6A200482003 /* libc++.tbd */; };
+		F458DC7E1F2D7423000D25B8 /* NChart3D.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F458DC7D1F2D7423000D25B8 /* NChart3D.framework */; };
+		F46EDB511F26CEBE0003920F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46EDB491F26CEBE0003920F /* AppDelegate.swift */; };
+		F46EDB521F26CEBE0003920F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46EDB4A1F26CEBE0003920F /* ViewController.swift */; };
+		F46EDB531F26CEBE0003920F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F46EDB4D1F26CEBE0003920F /* Assets.xcassets */; };
+		F46EDB551F26CEBE0003920F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F46EDB501F26CEBE0003920F /* Main.storyboard */; };
+		F4A420261F2706B400E26AB2 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A420251F2706B400E26AB2 /* CloudKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA3EC7279063BCC0B2B1629B /* Pods-AudioCompare_tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioCompare_tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AudioCompare_tvOS/Pods-AudioCompare_tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		C6DB55AED6CB3136B6D24D9A /* Pods_AudioCompare_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AudioCompare_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D72705C6223B6457D9201AD6 /* Pods-AudioCompare_tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioCompare_tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-AudioCompare_tvOS/Pods-AudioCompare_tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		F423955B1F26D6A200482003 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		F423955C1F26D6A200482003 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		F458DC7D1F2D7423000D25B8 /* NChart3D.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NChart3D.framework; sourceTree = "<group>"; };
+		F46EDB491F26CEBE0003920F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F46EDB4A1F26CEBE0003920F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F46EDB4D1F26CEBE0003920F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F46EDB4E1F26CEBE0003920F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F46EDB501F26CEBE0003920F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F4A420221F27049800E26AB2 /* AudioCompare_tvOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AudioCompare_tvOS.entitlements; sourceTree = "<group>"; };
+		F4A420251F2706B400E26AB2 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		F4ACC0581F26CD2A000B77F2 /* AudioCompare_tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioCompare_tvOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4ACC0551F26CD2A000B77F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F458DC7E1F2D7423000D25B8 /* NChart3D.framework in Frameworks */,
+				F4A420261F2706B400E26AB2 /* CloudKit.framework in Frameworks */,
+				F423955E1F26D6A200482003 /* ImageIO.framework in Frameworks */,
+				F423955F1F26D6A200482003 /* libc++.tbd in Frameworks */,
+				E9FA33BF267CD9C43AC38BC0 /* Pods_AudioCompare_tvOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		235475B1656104BEA2CC3A65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F458DC7D1F2D7423000D25B8 /* NChart3D.framework */,
+				F4A420251F2706B400E26AB2 /* CloudKit.framework */,
+				F423955B1F26D6A200482003 /* ImageIO.framework */,
+				F423955C1F26D6A200482003 /* libc++.tbd */,
+				C6DB55AED6CB3136B6D24D9A /* Pods_AudioCompare_tvOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98C1D93C29CA3875B3A721F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA3EC7279063BCC0B2B1629B /* Pods-AudioCompare_tvOS.debug.xcconfig */,
+				D72705C6223B6457D9201AD6 /* Pods-AudioCompare_tvOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F46EDB471F26CEBE0003920F /* AudioCompare_tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				F4A420221F27049800E26AB2 /* AudioCompare_tvOS.entitlements */,
+				F46EDB481F26CEBE0003920F /* Controller */,
+				F46EDB4B1F26CEBE0003920F /* Extensions */,
+				F46EDB4C1F26CEBE0003920F /* Resources */,
+				F46EDB4F1F26CEBE0003920F /* Storyboards */,
+			);
+			path = AudioCompare_tvOS;
+			sourceTree = "<group>";
+		};
+		F46EDB481F26CEBE0003920F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F46EDB491F26CEBE0003920F /* AppDelegate.swift */,
+				F46EDB4A1F26CEBE0003920F /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F46EDB4B1F26CEBE0003920F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F46EDB4C1F26CEBE0003920F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F46EDB4D1F26CEBE0003920F /* Assets.xcassets */,
+				F46EDB4E1F26CEBE0003920F /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F46EDB4F1F26CEBE0003920F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F46EDB501F26CEBE0003920F /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F4ACC04F1F26CD2A000B77F2 = {
+			isa = PBXGroup;
+			children = (
+				F46EDB471F26CEBE0003920F /* AudioCompare_tvOS */,
+				F4ACC0591F26CD2A000B77F2 /* Products */,
+				98C1D93C29CA3875B3A721F5 /* Pods */,
+				235475B1656104BEA2CC3A65 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F4ACC0591F26CD2A000B77F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4ACC0581F26CD2A000B77F2 /* AudioCompare_tvOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4ACC0571F26CD2A000B77F2 /* AudioCompare_tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4ACC0671F26CD2A000B77F2 /* Build configuration list for PBXNativeTarget "AudioCompare_tvOS" */;
+			buildPhases = (
+				BD380962922DE3ED8F8D9C16 /* [CP] Check Pods Manifest.lock */,
+				F4ACC0541F26CD2A000B77F2 /* Sources */,
+				F4ACC0551F26CD2A000B77F2 /* Frameworks */,
+				F4ACC0561F26CD2A000B77F2 /* Resources */,
+				09633542EE0F0B4CB4FEE050 /* [CP] Embed Pods Frameworks */,
+				C432B63D012D871DD9E4D758 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioCompare_tvOS;
+			productName = AudioCompare_tvOS;
+			productReference = F4ACC0581F26CD2A000B77F2 /* AudioCompare_tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4ACC0501F26CD2A000B77F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = LeVieux;
+				TargetAttributes = {
+					F4ACC0571F26CD2A000B77F2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 654A374879;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = F4ACC0531F26CD2A000B77F2 /* Build configuration list for PBXProject "AudioCompare_tvOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4ACC04F1F26CD2A000B77F2;
+			productRefGroup = F4ACC0591F26CD2A000B77F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4ACC0571F26CD2A000B77F2 /* AudioCompare_tvOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4ACC0561F26CD2A000B77F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46EDB551F26CEBE0003920F /* Main.storyboard in Resources */,
+				F46EDB531F26CEBE0003920F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09633542EE0F0B4CB4FEE050 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AudioCompare_tvOS/Pods-AudioCompare_tvOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD380962922DE3ED8F8D9C16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C432B63D012D871DD9E4D758 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AudioCompare_tvOS/Pods-AudioCompare_tvOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4ACC0541F26CD2A000B77F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46EDB521F26CEBE0003920F /* ViewController.swift in Sources */,
+				F46EDB511F26CEBE0003920F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F4ACC0651F26CD2A000B77F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		F4ACC0661F26CD2A000B77F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4ACC0681F26CD2A000B77F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA3EC7279063BCC0B2B1629B /* Pods-AudioCompare_tvOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = AudioCompare_tvOS/AudioCompare_tvOS.entitlements;
+				DEVELOPMENT_TEAM = 654A374879;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/AudioCompare_tvOS/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "levieux.AudioCompare-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/trevorlevieux/Desktop/LeVieux/AudioCompare/AudioCompare_tvOS/NChart3D.framework/Headers/NChart3D.h;
+				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		F4ACC0691F26CD2A000B77F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D72705C6223B6457D9201AD6 /* Pods-AudioCompare_tvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = AudioCompare_tvOS/AudioCompare_tvOS.entitlements;
+				DEVELOPMENT_TEAM = 654A374879;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/AudioCompare_tvOS/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "levieux.AudioCompare-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/trevorlevieux/Desktop/LeVieux/AudioCompare/AudioCompare_tvOS/NChart3D.framework/Headers/NChart3D.h;
+				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4ACC0531F26CD2A000B77F2 /* Build configuration list for PBXProject "AudioCompare_tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4ACC0651F26CD2A000B77F2 /* Debug */,
+				F4ACC0661F26CD2A000B77F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4ACC0671F26CD2A000B77F2 /* Build configuration list for PBXNativeTarget "AudioCompare_tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4ACC0681F26CD2A000B77F2 /* Debug */,
+				F4ACC0691F26CD2A000B77F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4ACC0501F26CD2A000B77F2 /* Project object */;
+}
