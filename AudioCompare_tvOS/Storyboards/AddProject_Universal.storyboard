@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="13168.3" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sOZ-K8-Znj">
+    <device id="appleTV" orientation="landscape">
+        <adaptation id="light"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13147.4"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="57e-oy-x26">
+            <objects>
+                <navigationController id="sOZ-K8-Znj" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="eCL-6q-srZ">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="145"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="D1f-AL-cV5" kind="relationship" relationship="rootViewController" id="Ei5-LL-2Nk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WBR-FK-cb6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1879" y="-35"/>
+        </scene>
+        <!--Tracks Main View Controller-->
+        <scene sceneID="gcV-rQ-GbV">
+            <objects>
+                <viewController id="D1f-AL-cV5" customClass="Tracks_MainViewController" customModule="AudioCompare_tvOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dli-sq-6KI"/>
+                        <viewControllerLayoutGuide type="bottom" id="w9Q-Uv-qkJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lSH-4a-WA4">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xy8-ck-kX3">
+                                <rect key="frame" x="760" y="503" width="400" height="160"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="160" id="Rv3-7P-b5I"/>
+                                    <constraint firstAttribute="width" constant="400" id="V2o-oA-GSt"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" title="Select source"/>
+                                <connections>
+                                    <action selector="nextButtonPressed" destination="D1f-AL-cV5" eventType="touchUpInside" id="Jb7-U0-aOL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="xy8-ck-kX3" firstAttribute="centerX" secondItem="8vB-J3-hOa" secondAttribute="centerX" id="96H-ic-JoA"/>
+                            <constraint firstItem="xy8-ck-kX3" firstAttribute="centerY" secondItem="8vB-J3-hOa" secondAttribute="centerY" id="Y3g-iR-MYA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="8vB-J3-hOa"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="S6Z-xf-97G"/>
+                    <connections>
+                        <segue destination="GC6-Aj-Ni5" kind="show" id="LT0-Cn-jIa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Crn-hE-hJt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="261" y="-35"/>
+        </scene>
+        <!--Tracks Selection View Controller-->
+        <scene sceneID="54q-ey-LUn">
+            <objects>
+                <viewController id="GC6-Aj-Ni5" customClass="Tracks_SelectionViewController" customModule="AudioCompare_tvOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WuM-Ah-bUm"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZSh-lw-Jaa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iAc-eS-uHq">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nEj-ZA-d86">
+                                <rect key="frame" x="760" y="503" width="400" height="160"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="400" id="S4r-7c-WIh"/>
+                                    <constraint firstAttribute="height" constant="160" id="zYT-eB-yVK"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" title="Select Track"/>
+                                <connections>
+                                    <action selector="doneButtonPressed" destination="GC6-Aj-Ni5" eventType="touchUpInside" id="JbX-Uo-zPh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="nEj-ZA-d86" firstAttribute="centerX" secondItem="QEy-MN-BkL" secondAttribute="centerX" id="hjf-bK-tCs"/>
+                            <constraint firstItem="nEj-ZA-d86" firstAttribute="centerY" secondItem="QEy-MN-BkL" secondAttribute="centerY" id="w45-h4-tX8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="QEy-MN-BkL"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="cPG-4U-l5P"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2gx-0T-HSZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2413" y="-35"/>
+        </scene>
+    </scenes>
+</document>

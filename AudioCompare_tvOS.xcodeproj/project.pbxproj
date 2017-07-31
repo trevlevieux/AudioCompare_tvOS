@@ -12,10 +12,18 @@
 		F423955F1F26D6A200482003 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F423955C1F26D6A200482003 /* libc++.tbd */; };
 		F458DC7E1F2D7423000D25B8 /* NChart3D.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F458DC7D1F2D7423000D25B8 /* NChart3D.framework */; };
 		F46EDB511F26CEBE0003920F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46EDB491F26CEBE0003920F /* AppDelegate.swift */; };
-		F46EDB521F26CEBE0003920F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46EDB4A1F26CEBE0003920F /* ViewController.swift */; };
 		F46EDB531F26CEBE0003920F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F46EDB4D1F26CEBE0003920F /* Assets.xcassets */; };
 		F46EDB551F26CEBE0003920F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F46EDB501F26CEBE0003920F /* Main.storyboard */; };
 		F4A420261F2706B400E26AB2 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A420251F2706B400E26AB2 /* CloudKit.framework */; };
+		F4F626B61F2FB5470063804D /* Projects_TemplatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F626B51F2FB5460063804D /* Projects_TemplatesViewController.swift */; };
+		F4F626B71F2FB5470063804D /* Main_DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F626B31F2FB5460063804D /* Main_DataViewController.swift */; };
+		F4F626B81F2FB5470063804D /* Tracks_SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F626B01F2FB5460063804D /* Tracks_SelectionViewController.swift */; };
+		F4F626B91F2FB5470063804D /* Projects_MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F626B41F2FB5460063804D /* Projects_MainViewController.swift */; };
+		F4F626BA1F2FB5470063804D /* Tracks_MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F626AF1F2FB5460063804D /* Tracks_MainViewController.swift */; };
+		F4F626BB1F2FB5470063804D /* Main_TracksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F626B11F2FB5460063804D /* Main_TracksViewController.swift */; };
+		F4F626BC1F2FB5470063804D /* Main_ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F626B21F2FB5460063804D /* Main_ContainerViewController.swift */; };
+		F4F626BF1F2FB5AA0063804D /* TrackCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F626BE1F2FB54F0063804D /* TrackCollectionViewCell.swift */; };
+		F4F626C11F2FE79A0063804D /* AddProject_Universal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4F626C01F2FE79A0063804D /* AddProject_Universal.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,13 +34,22 @@
 		F423955C1F26D6A200482003 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		F458DC7D1F2D7423000D25B8 /* NChart3D.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NChart3D.framework; sourceTree = "<group>"; };
 		F46EDB491F26CEBE0003920F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F46EDB4A1F26CEBE0003920F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F46EDB4D1F26CEBE0003920F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F46EDB4E1F26CEBE0003920F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F46EDB501F26CEBE0003920F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		F4A420221F27049800E26AB2 /* AudioCompare_tvOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AudioCompare_tvOS.entitlements; sourceTree = "<group>"; };
 		F4A420251F2706B400E26AB2 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		F4ACC0581F26CD2A000B77F2 /* AudioCompare_tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioCompare_tvOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4F626AF1F2FB5460063804D /* Tracks_MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracks_MainViewController.swift; sourceTree = "<group>"; };
+		F4F626B01F2FB5460063804D /* Tracks_SelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracks_SelectionViewController.swift; sourceTree = "<group>"; };
+		F4F626B11F2FB5460063804D /* Main_TracksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main_TracksViewController.swift; sourceTree = "<group>"; };
+		F4F626B21F2FB5460063804D /* Main_ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main_ContainerViewController.swift; sourceTree = "<group>"; };
+		F4F626B31F2FB5460063804D /* Main_DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main_DataViewController.swift; sourceTree = "<group>"; };
+		F4F626B41F2FB5460063804D /* Projects_MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projects_MainViewController.swift; sourceTree = "<group>"; };
+		F4F626B51F2FB5460063804D /* Projects_TemplatesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projects_TemplatesViewController.swift; sourceTree = "<group>"; };
+		F4F626BE1F2FB54F0063804D /* TrackCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCollectionViewCell.swift; sourceTree = "<group>"; };
+		F4F626C01F2FE79A0063804D /* AddProject_Universal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddProject_Universal.storyboard; sourceTree = "<group>"; };
+		F4F626C21F2FE8D10063804D /* AddTrack_Universal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddTrack_Universal.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +95,7 @@
 				F4A420221F27049800E26AB2 /* AudioCompare_tvOS.entitlements */,
 				F46EDB481F26CEBE0003920F /* Controller */,
 				F46EDB4B1F26CEBE0003920F /* Extensions */,
+				F4F626BD1F2FB54F0063804D /* CollectionViewCells */,
 				F46EDB4C1F26CEBE0003920F /* Resources */,
 				F46EDB4F1F26CEBE0003920F /* Storyboards */,
 			);
@@ -88,7 +106,13 @@
 			isa = PBXGroup;
 			children = (
 				F46EDB491F26CEBE0003920F /* AppDelegate.swift */,
-				F46EDB4A1F26CEBE0003920F /* ViewController.swift */,
+				F4F626B21F2FB5460063804D /* Main_ContainerViewController.swift */,
+				F4F626B31F2FB5460063804D /* Main_DataViewController.swift */,
+				F4F626B11F2FB5460063804D /* Main_TracksViewController.swift */,
+				F4F626B41F2FB5460063804D /* Projects_MainViewController.swift */,
+				F4F626B51F2FB5460063804D /* Projects_TemplatesViewController.swift */,
+				F4F626AF1F2FB5460063804D /* Tracks_MainViewController.swift */,
+				F4F626B01F2FB5460063804D /* Tracks_SelectionViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -113,6 +137,8 @@
 			isa = PBXGroup;
 			children = (
 				F46EDB501F26CEBE0003920F /* Main.storyboard */,
+				F4F626C01F2FE79A0063804D /* AddProject_Universal.storyboard */,
+				F4F626C21F2FE8D10063804D /* AddTrack_Universal.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -133,6 +159,14 @@
 				F4ACC0581F26CD2A000B77F2 /* AudioCompare_tvOS.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F4F626BD1F2FB54F0063804D /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				F4F626BE1F2FB54F0063804D /* TrackCollectionViewCell.swift */,
+			);
+			path = CollectionViewCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4F626C11F2FE79A0063804D /* AddProject_Universal.storyboard in Resources */,
 				F46EDB551F26CEBE0003920F /* Main.storyboard in Resources */,
 				F46EDB531F26CEBE0003920F /* Assets.xcassets in Resources */,
 			);
@@ -266,8 +301,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F46EDB521F26CEBE0003920F /* ViewController.swift in Sources */,
+				F4F626B71F2FB5470063804D /* Main_DataViewController.swift in Sources */,
+				F4F626BF1F2FB5AA0063804D /* TrackCollectionViewCell.swift in Sources */,
+				F4F626B61F2FB5470063804D /* Projects_TemplatesViewController.swift in Sources */,
 				F46EDB511F26CEBE0003920F /* AppDelegate.swift in Sources */,
+				F4F626BA1F2FB5470063804D /* Tracks_MainViewController.swift in Sources */,
+				F4F626BB1F2FB5470063804D /* Main_TracksViewController.swift in Sources */,
+				F4F626B91F2FB5470063804D /* Projects_MainViewController.swift in Sources */,
+				F4F626B81F2FB5470063804D /* Tracks_SelectionViewController.swift in Sources */,
+				F4F626BC1F2FB5470063804D /* Main_ContainerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
